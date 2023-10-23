@@ -99,11 +99,12 @@ li a:hover {
 }
 
 .aboutImageCont {
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+  top: 490px;
   width: 30%;
   justify-content:left;
   align-items: center;
+  right: 430px;
 }
 
 #aboutImage {
@@ -111,7 +112,6 @@ li a:hover {
   height: 200px;
   border-radius: 20px;
 }
-
 
 .footerText {
   display: flex;
@@ -125,14 +125,3 @@ li a:hover {
   background-color: #fff;
 }
 
-.imageContainer {
-  margin-top: 150px;
-  display: flex;
-}
-
-.imageCard {
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  border-radius: 50%;
-}
